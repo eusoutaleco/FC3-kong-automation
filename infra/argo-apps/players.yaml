@@ -16,7 +16,7 @@ spec:
         - values-kong.yaml
   destination:
     namespace: bets
-    server: http://127.0.0.1:57414
+    server: https://kubernetes.default.svc
   syncPolicy:
     automated:
       selfHeal: true
