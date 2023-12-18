@@ -8,8 +8,8 @@ metadata:
 spec:
   project: default
   source:
-    path: infra/argo-apps/matches
-    repoURL: https://github.com/eusoutaleco/FC3-kong-automation
+    path: deployments/matches
+    repoURL: https://github.com/eusoutaleco/fc-api-gateway-k8s-matches-app
     targetRevision: HEAD
     helm:
       valueFiles:
