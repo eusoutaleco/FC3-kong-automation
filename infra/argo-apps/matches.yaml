@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    path: deployments/matches
+    path: infra/argo-apps/matches
     repoURL: https://github.com/eusoutaleco/FC3-kong-automation
     targetRevision: HEAD
     helm:
